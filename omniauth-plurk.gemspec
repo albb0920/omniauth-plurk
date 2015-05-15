@@ -12,8 +12,7 @@ Gem::Specification.new do |s|
   s.description = %q{an omniauth strategy for plurk}
 
   s.rubyforge_project = "omniauth-plurk"
-  s.add_dependency 'omniauth', '~> 1.0.0.rc2'
-  s.add_dependency 'omniauth-oauth2', '~> 1.0.0.rc2'
+  s.add_dependency 'omniauth-oauth2', '~> 1.2'
 
 
   s.files         = `git ls-files`.split("\n")
